@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS.Estoque.Application\CQRS.Estoque.Application.csproj" />
+    <ProjectReference Include="..\CQRS.Estoque.Infrastructure\CQRS.Estoque.Infrastructure.csproj" />
+    <ProjectReference Include="..\CQRS.Estoque.Domain\CQRS.Estoque.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
